@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "outDir": "lib/",
-    // This is the relevant option
-    // The types you need will be exported to lib/
-    "declaration": true
+    "declaration": true,
+    // Remove noEmit and replace it with this
+    "emitDeclarationOnly": true
   }
 }
